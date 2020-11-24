@@ -1,0 +1,14 @@
+image: node:latest
+
+cache:
+  paths:
+  - node_modules/
+
+job:
+  script:
+  - apt-get update -qy
+  - apt-get install -y ruby ruby-dev rubygems-integration
+  - npm install
+  - gem install --no-rdoc --no-ri dpl
+  - dpl --provider=heroku --app=parisdekibebeg --api-key=0a3cfa9e-3e1c-4a70-acff-5eaf0b22a769
+# change app name and api key if necessary
