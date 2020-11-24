@@ -23,11 +23,7 @@
     "sqlite": "^4.0.10",
     "canvas": "^2.6.1",
     "ms": "^2.1.2",
-    "parse-ms": "^2.0.0",
-    "simple-youtube-api": "^5.1.1",
-    "ytdl-core": "^2.0.0",
-    "ytdl-core-discord": "amishshah/ytdl-core-discord",
-    "yt-search": "^2.2.4"
+    "parse-ms": "^2.0.0"
   },
   "engines": {
     "node": "12.x"
